@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("../img/fondo1.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url("../img/por.jpg");
+    background-size: cover;
+    background-position: center; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+h2 {
+    text-align: center;
+    color: #000000;
+}
+p {
+    color: #ffffff;
+    font-size: 20px;
+}
+.cta-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.cta-button:hover {
+    background-color: #0056b3;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    width: calc(100% - 22px); /* Ajusta el ancho para el padding */
+    padding: 12px; /* Aumenta el padding */
+    margin: 10px 0; /* Espacio vertical entre los campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+input[type="number"] {
+    width: calc(40% - 22px); /* Ajusta el ancho para el padding */
+    padding: 12px; /* Aumenta el padding */
+    margin: 10px 0; /* Espacio vertical entre los campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+input[type="time"]  {
+    width: calc(40% - 22px); /* Ajusta el ancho para el padding */
+    padding: 12px; /* Aumenta el padding */
+    margin: 10px 0; /* Espacio vertical entre los campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+input[type="code"]  {
+    width: calc(40% - 22px); /* Ajusta el ancho para el padding */
+    padding: 12px; /* Aumenta el padding */
+    margin: 10px 0; /* Espacio vertical entre los campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    .cta-button {
+        font-size: 16px;
+    }
+}
